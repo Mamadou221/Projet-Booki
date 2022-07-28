@@ -397,6 +397,14 @@ main{
     height: 120px;
 }
 
+.grid-container .last{
+    height: 160px;
+}
+
+.grid-container .last .img{
+    height: 98px;
+}
+
 .grid-container .img{
     width: 100%;
     border-top-left-radius: 1rem;
@@ -619,11 +627,46 @@ footer .first{
     .grid-container{
         display: flex;
         flex-direction: column;
+        width: 290px;
+        margin: auto;
+        margin-top: 20px;
     }
+
+    .grid-content{
+        height: auto;
+    }
+
+    .grid-container .two{
+        height: 440px;
+    }
+
+    .grid-container .two .two-bottom, .grid-container .one, .grid-container .last {
+        height: 220px;
+    }
+
+
+
+    .bt-title{
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .grid-container .one .img, .grid-container .two-top .img, .grid-container .two .two-bottom .img, .grid-container .last .img {
+        height: 180px;
+    }
+
+    /*.container-bottom h3{
+        width: 300px;
+        margin: auto;
+    }*/
 
     footer{
         display: flex;
         flex-direction: column;
+        height: auto;
+        gap: 10px;
     }
     
   }
