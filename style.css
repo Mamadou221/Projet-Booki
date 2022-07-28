@@ -473,7 +473,7 @@ footer .first{
         font-size: 17px;
     }
 
-    .main-center{
+    .main-center{ 
         display: flex;
         flex-direction: column;
     }
@@ -552,7 +552,7 @@ footer .first{
         width: 50%;
     }
 
-    #section_header .active {
+    #section_header .menu:hover {
         border-bottom: var(--color-primary) solid 3px;
         border-top: none;
     }
