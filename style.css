@@ -498,3 +498,132 @@ footer .first{
         margin: 7px;
     }
   }
+
+  @media (min-width: 320px)and (max-width: 480px) {
+  
+    .container{
+        width: 320px;
+    }
+
+    .entete{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+    }
+
+    #logobooki{
+        margin: auto;
+        width: 320px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #logobooki img{
+        width: 75px;
+        margin: auto;
+    }
+
+    #section_header{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .menu{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section_header a{
+        width: 50%;
+    }
+
+    #section_header .active {
+        border-bottom: var(--color-primary) solid 3px;
+        border-top: none;
+    }
+
+    .home{
+        width: 300px;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .home-title{
+        line-height: 1.5;
+    }
+    .home-title h2{
+        font-size: 15px;
+    }
+
+    .search{
+        width: 300px;
+        margin: auto;
+    }
+
+    .home-filter{
+        width: 100%;
+        margin-top: 0;
+    }
+    .form-filter{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .form-filter .div-filter{
+        height: 45px;
+    }
+
+    .home-filter span{
+        font-size: 14px;
+    }
+
+    .content input{
+        font-size: 15px;
+    }
+
+    main{
+        margin-top: 200px;
+    }
+
+    .info{
+        width: 310px;
+        margin: auto;
+    }
+
+    .list-article{
+        background: none;
+    }
+
+    .list-article, .main-aside{
+        border-radius: 0;
+    }
+
+    .main-center{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
