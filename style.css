@@ -41,7 +41,7 @@ a
     font-weight: bold;
 }
 
-#section_header .active{
+.menu:active{
     color: var(--color-primary);
     font-weight: bold;
     border-top: var(--color-primary) solid 3px;
@@ -398,11 +398,11 @@ main{
 }
 
 .grid-container .last{
-    height: 160px;
+    height: 198px;
 }
 
 .grid-container .last .img{
-    height: 98px;
+    height: 150px;
 }
 
 .grid-container .img{
@@ -430,7 +430,7 @@ footer{
 }
 
 footer .first{
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .info-footer li{
@@ -504,6 +504,14 @@ footer .first{
     .grid-container h3{
         font-size: 12px;
         margin: 7px;
+    }
+
+    .grid-container .last{
+        height: 125px;
+    }
+    
+    .grid-container .last .img{
+        height: 100px;
     }
   }
 
