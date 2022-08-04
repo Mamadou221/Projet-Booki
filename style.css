@@ -35,13 +35,9 @@ a
     margin: auto;
     align-items: center;
 }
-.menu:hover
-{
-    color: var(--color-primary);
-    font-weight: bold;
-}
 
-.menu:active{
+
+.menu:hover, .menu:active{
     color: var(--color-primary);
     font-weight: bold;
     border-top: var(--color-primary) solid 3px;
